@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.che.chemical.buet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/group_18"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/group_18"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.che.chemical.buet.welcome_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.che.chemical.buet.CardActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.semesterOne"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.semesterTwo"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.semesterThree"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.semesterFour"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.semesterFive"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.semesterSix"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.semesterSeven"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.semesterEight"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.about_chemical"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.about_builder"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.tab_one_theory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_one_sessional"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_two_theory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_two_sessional"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_three_theory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_three_sessional"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_four_theory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_four_sessional"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_five_theory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_five_sessional"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_six_theory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_six_sessional"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_seven_theory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_seven_sessional"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_eight_theory"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.activity_tab_eight_sessional"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.tab_one_question"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.che.chemical.buet.tab_two_question"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
